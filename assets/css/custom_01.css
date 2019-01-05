@@ -1,0 +1,413 @@
+body {
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+@font-face {
+font-family:arimo-regular;
+src: url("../fonts/Arimo-Regular.ttf");
+}
+.all-wrapper {
+    float: left;
+    width: 100%;
+    padding: 100px 0px;
+}
+.form-head {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-head h5 {
+    color: black;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+.form-head h5 span {
+    display: inline-block;
+    background: #04b888;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.form-bg {
+    width: 500px;
+    background: none;
+    margin: auto;
+}
+.form-bg form {
+    float: left;
+    width: 100%;
+    border: 1px solid #d4d4d4;
+    text-align: left;
+    padding: 25px 40px;
+    border-top: 15px solid #d4d4d4;
+}
+.form-bg h5 {
+    margin: 0px 0px 10px 0px;
+    font-size: 18px;
+    margin-bottom: 12px;
+
+}
+
+.form-bg form input::placeholder {
+    font-weight:normal;
+    font-size: 13px;
+    color:silver;
+}
+.form-bg form input {
+    font-size: 14px;
+    font-weight: normal;
+    height: 40px;
+    padding-left: 8px;
+    width: 40%;
+    font-family: arimo-regular;
+}
+.form-bg form button {
+    background: #04b888;
+    width: 70px;
+    border: none;
+    color: white;
+    height: 40px;
+}
+.popup-box {
+    float: left;
+    width: 100%;
+    background: white;
+    border-radius: 0px;
+    border: 8px solid white;
+    text-align: center;
+}
+.modal-lg {
+    width: 600px;
+}
+.popup-head {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.popup-head h5 {
+    color: black;
+    font-size: 24px;
+}
+.popup-head p {
+    color: black;
+    font-family: arimo-regular;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.popup-middle {
+    float: none;
+    width: 85%;
+    background: #eee;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.popup-middle h5 {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    margin-bottom: 15px;
+}
+.popup-middle p {
+    color: black;
+    font-family: arimo-regular;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+.popup-last {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.popup-last h5 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.popup-last p {
+    color: black;
+    font-family: arimo-regular;
+    font-size: 15px;
+    width: 85%;
+    margin: auto;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+}
+.popup-social {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.popup-social h6 a {
+    background: white;
+    color: white;
+    font-family: arimo-regular;
+    font-size: 16px;
+    padding: 8px 14px;
+    display: inline-block;
+    margin: 0px 8px;
+    text-decoration: none;
+}
+.popup-social h6 a i {
+    font-size: 13px;
+    margin-right: 5px;
+}
+.popup-social h5 {
+    color: black;
+    margin-top: 23px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: arimo-regular;
+}
+.popup-social span a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: arimo-regular;
+    font-weight: 600;
+}
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    font-size: 26px;
+    opacity: 1;
+    margin-right: 10px;
+    border: 1px solid black;
+    width: 32px;
+    margin-top: -3px;
+    height: 30px;
+    z-index: 999;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+.popup-head h3 {
+    font-size: 16px;
+    padding: 0px 25px;
+    margin-bottom: 15px;
+    color: #04b888;
+    line-height: 22px;
+}
+.waiting-list {
+    float: none;
+    width: 500px;
+    margin: auto;
+}
+.waiting-bg {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    background: #eee;
+    text-align: center;
+    padding: 20px 0px;
+}
+.waiting-list-head {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.waiting-list-head h5 {
+    color: black;
+    font-size: 30px;
+    font-family: arimo-regular;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+.waiting1 {
+    width: 17%;
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+}
+.waiting2 {
+    float: left;
+    width: 26%;
+    text-align: left;
+}
+.waiting3 {
+    float: left;
+    width: 26%;
+    text-align: left;
+}
+.waiting4 {
+    float: left;
+    width: 26%;
+    text-align: left;
+}
+.waiting-list-data1 {
+    float: left;
+    width: 100%;
+    padding: 12px 0px;
+    background: white;
+}
+
+.waiting-list-data2 {
+    float: left;
+    width: 100%;
+    padding: 12px 0px;
+    background: #eee;
+}
+.waiting11 {
+    width: 17%;
+    font-family: arimo-regular;
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+}
+.waiting22 {
+    float: left;
+    width: 26%;
+    text-align: left;
+    font-family: arimo-regular;
+}
+.waiting33 {
+    float: left;
+    width: 26%;
+    font-family: arimo-regular;
+    text-align: left;
+}
+.waiting44 {
+    float: left;
+    width: 26%;
+    font-family: arimo-regular;
+    text-align: left;
+}
+
+@media screen and (max-width:620px) and (min-width:320px) {
+.form-bg {
+    width: 100%;
+    background: none;
+    margin: auto;
+}
+.waiting-list {
+    float: none;
+    width: 100%;
+    margin: auto;
+}
+
+.waiting-list-data1 {
+    float: left;
+    width: 100%;
+    padding: 12px 0px;
+    background: white;
+    font-size: 13px;
+    font-family: arimo-regular;
+}
+.form-bg form {
+    float: left;
+    width: 100%;
+    border: 1px solid #d4d4d4;
+    text-align: left;
+    padding: 25px 20px;
+    border-top: 15px solid #d4d4d4;
+}
+.form-bg form button {
+    background: #04b888;
+    width: 55px;
+    border: none;
+    color: white;
+    height: 40px;
+}
+.waiting-list-data2 {
+    float: left;
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 13px;
+    background: #eee;
+}
+.waiting11 , .waiting22 , .waiting33 , .waiting44 {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.waiting1 , .waiting2 , .waiting3 , .waiting4 {
+    padding-left:10px;
+    padding-right:10px;
+}
+.form-head h5 {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.all-wrapper {
+    float: left;
+    width: 100%;
+    padding: 40px 0px;
+}
+.waiting-bg {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    background: #eee;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+.modal-lg {
+    width: 95%;
+    margin:0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.popup-head h3 {
+    font-size: 14px;
+    padding: 0px 14px;
+    margin-bottom: 15px;
+    color: #04b888;
+    line-height: 22px;
+    margin-top: 19px;
+}
+.popup-head h5 {
+    color: black;
+    font-size: 22px;
+}
+.popup-head p {
+    color: black;
+    font-family: arimo-regular;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.popup-middle {
+    float: none;
+    width: 100%;
+    background: #eee;
+    padding: 15px 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.popup-social h6 a {
+    background: #04b888;
+    color: white;
+    font-family: arimo-regular;
+    font-size: 15px;
+    padding: 8px 14px;
+    display: inline-block;
+    margin: 0px 8px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.popup-box {
+    margin-bottom: 20px;
+}
+.form-bg form input {
+    font-size: 14px;
+    font-weight: normal;
+    height: 40px;
+    padding-left: 8px;
+    width: 48%;
+    font-family: arimo-regular;
+}
+.form-bg form button {
+    background: #04b888;
+    width: 97%;
+    border: none;
+    color: white;
+    height: 40px;
+    margin-top: 10px;
+}
+}
